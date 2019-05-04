@@ -6,8 +6,7 @@ At present, deep learning has achieved remarkable results in many fields and a l
 * Most of the previous studies assume that the training dataset covers the total operating space of the distribution network, while the historical fault data measured by the PMU cannot completely cover all fault conditions. When a fault condition that does not exist in the training samples needs to be predicted by the pre-trained machine learning model, the fault may not be accurately located.<br>
 
 ## My proposed methodology<br>
-The architecture of fault location framework<br>
-
+The architecture of fault location framework:<br>
 ![图片名称](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/Fault%20location%20model%20in%20distribution%20network.png) 
 
 AC-GAN link
