@@ -7,10 +7,12 @@ At present, deep learning has achieved remarkable results in many fields and a l
 
 ## My proposed methodology<br>
 The architecture of fault location framework:<br>
+
 ![图片名称](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/Fault%20location%20model%20in%20distribution%20network.png) 
 
 AC-GAN link
 The model can be divided in three parts:
+If you are not familiar with GAN and Transfer learning, there are some pappers you need 
 
 * Spectrogram prediction network
 * Wavenet vocoder
