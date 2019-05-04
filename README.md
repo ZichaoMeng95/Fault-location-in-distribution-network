@@ -36,6 +36,7 @@ a_{m0}&a_{m1}&{\cdots}&{a_{mn}}\\
 $$
 
 # 机器学习-如何在github上写数学公式
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
     $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
     \\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
