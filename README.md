@@ -6,8 +6,8 @@ At present, deep learning has achieved remarkable results in many fields and a l
 * Most of the previous studies assume that the training dataset covers the total operating space of the distribution network, while the historical fault data measured by the PMU cannot completely cover all fault conditions. When a fault condition that does not exist in the training samples needs to be predicted by the pre-trained machine learning model, the fault may not be accurately located.<br>
 
 In order to realize the accurate fault location in multi-source distribution network by using fault data with small size and low completeness, there are the ***breif solutions*** showing as follows:<br>
-*	**Convolution-transposed convolution network** ([CTN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8618415)) is adopted to establish the mapping from stable-state data to fault data to realize the estimation of fault conditions not collected in historical dataset. **auxiliary classifier generative adversarial networks** ([AC-GAN](https://arxiv.org/pdf/1610.09585.pdf)) based on CNN is proposed here which can effectively learn the distribution characteristics of real fault data and generate high quality samples of fault data in line with the actual situation, thus augmenting the dataset. <br>
-*	In view of the extraordinary feature extraction ability of CNN on image recognition, time series signals of fault voltage and current acquired by PMU are stored as multi-dimensional arrays which are similar to the form of images and we leverage a CNN classifier to perform automatic feature extraction on them for locating fault. <br>
+*	**Convolution-transposed convolution network** ([CTN](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8618415)) is adopted to establish the mapping from stable-state data to fault data to realize the estimation of fault conditions not collected in historical dataset. **Auxiliary classifier generative adversarial networks** ([AC-GAN](https://arxiv.org/pdf/1610.09585.pdf)) based on CNN is proposed here which can effectively learn the distribution characteristics of real fault data and generate high quality samples of fault data in line with the actual situation, thus augmenting the dataset. <br>
+*	In view of the extraordinary feature extraction ability of **CNN** on image recognition, time series signals of fault voltage and current acquired by PMU are stored as multi-dimensional arrays which are similar to the form of images and we leverage a CNN classifier to perform automatic feature extraction on them for locating fault. <br>
 
 ## My proposed methodology<br>
 The architecture of fault location framework:<br>
@@ -26,8 +26,11 @@ Secondly, the complete dataset is used as the real data Xreal for training AC-GA
 If you are not familiar with GAN, there is the papper you [need](https://arxiv.org/pdf/1406.2661.pdf). 
 
 ## Model training strategy<br>
-The architecture of fault location framework
-
+A parameter fine-tuning method based on steady-state data pre-training is leveraged to solve the over-fitting problem and speed up the training of the overall model. The breif steps are as follows:<br>
+* Pre-training CTN
+* Pre-training AC-GAN discriminator
+* Parameter transfer for fault location classifier 
+* Training process optimization through Batch Normalization
 
 ## Dataset<br>
 The architecture of fault location framework
