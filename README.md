@@ -7,6 +7,11 @@ At present, deep learning has achieved remarkable results in many fields and a l
 
 ## My proposed methodology<br>
 The architecture of fault location framework
+\alpha
+The model can be divided in three parts:
+
+* Spectrogram prediction network
+* Wavenet vocoder
 
 ## Model training strategy<br>
 The architecture of fault location framework
