@@ -39,6 +39,11 @@ A standard IEEE 33 bus model is built in PSCAD/EMTDC for data acquisition:<br>
 The second harmonic signals of negative sequence voltage and current measured at bus 22 when two-phase short circuit occurs at bus 6 and transition resistance is 0.01Ohm during simulation time of 0.4s~0.7s:<br>
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/Second%20harmonic%20signals%20of%20negative%20sequence%20voltage%20and%20current%20measured%20at%20bus%2022.png) 
 
+|列名1|列名2|
+|:---|:---|
+|列1的内容1|列2的内容1|
+|列1的内容2|列2的内容2|
+
 ## Simulation results<br>
 The architecture of fault location framework
 
