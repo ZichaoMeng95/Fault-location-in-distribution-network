@@ -39,11 +39,24 @@ A standard IEEE 33 bus model is built in PSCAD/EMTDC for data acquisition:<br>
 The second harmonic signals of negative sequence voltage and current measured at bus 22 when two-phase short circuit occurs at bus 6 and transition resistance is 0.01Ohm during simulation time of 0.4s~0.7s:<br>
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/Second%20harmonic%20signals%20of%20negative%20sequence%20voltage%20and%20current%20measured%20at%20bus%2022.png) 
 
-|列名1|列名2|
-|:---|:---|
-|列1的内容1|列2的内容1|
-|列1的内容2|列2的内容2|
+In this way, fault data and steady-state data under various operation conditions can be collected, and ensure there is **no intersection** between training samples and testing samples.<br>
 
 ## Simulation results<br>
-The architecture of fault location framework
+Fault data estimation results:<br>
+![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/Comparison%20of%20%20CTN%20fault%20data%20estimation%20results.png)
+
+Fault data augmentation results under different training epochs:<br>
+![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/AC-GAN%20data%20generation%20results%20when%20C%3D1%20during%20training%20process.png)
+
+Visualization of AC-GAN discriminator output features:<br>
+![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/Visualization%20of%20discriminator%20output%20features%20of%20AC-GAN.png)
+
+Curves of various errors and fault location accuracy with our without training strategy:<br>
+![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/training%20strategy.png)
+
+The influence of convolution structure change:<br>
+![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/structure%20change.png)
+
+The influence of data normalization:<br>
+![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/normalization.png)
 
