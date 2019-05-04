@@ -29,3 +29,4 @@ The architecture of fault location framework
     \\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
     $$\frac{7x+5}{1+y^2}$$
     \\(l(x_i) = - \log_2 P(x_i)\\)
+    $\alpha$
