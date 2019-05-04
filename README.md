@@ -33,10 +33,10 @@ A parameter fine-tuning method based on steady-state data pre-training is levera
 * Training process optimization through Batch Normalization
 
 ## Dataset<br>
-A standard IEEE 33 bus model is built in PSCAD/EMTDC for data acquisition:<br>
+### A standard IEEE 33 bus model is built in PSCAD/EMTDC for data acquisition:<br>
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/33-bus%20multi-source%20distribution%20network.png) 
 
-The second harmonic signals of negative sequence voltage and current measured at bus 22 when two-phase short circuit occurs at bus 6 and transition resistance is 0.01Ohm during simulation time of 0.4s~0.7s:<br>
+### The second harmonic signals of negative sequence voltage and current measured at bus 22 when two-phase short circuit occurs at bus 6 and transition resistance is 0.01Ohm during simulation time of 0.4s~0.7s:<br>
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/Second%20harmonic%20signals%20of%20negative%20sequence%20voltage%20and%20current%20measured%20at%20bus%2022.png) 
 
 In this way, fault data and steady-state data under various operation conditions can be collected, and ensure there is **no intersection** between training samples and testing samples.<br>
@@ -54,9 +54,9 @@ Visualization of AC-GAN discriminator output features:<br>
 Curves of various errors and fault location accuracy with our without training strategy:<br>
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/training%20strategy.png)
 
-The influence of convolution structure change:<br>
+The influence of convolution structure change on fault location accuracy:<br>
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/structure%20change.png)
 
-The influence of data normalization:<br>
+The influence of data normalization on fault location accuracy:<br>
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/normalization.png)
 
