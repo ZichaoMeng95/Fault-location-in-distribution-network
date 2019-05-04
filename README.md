@@ -23,6 +23,8 @@ The architecture of fault location framework
 ## Simulation results<br>
 The architecture of fault location framework
 
+ax^{2} + by^{2} + c = 0
+
 # 机器学习-如何在github上写数学公式
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
     $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
