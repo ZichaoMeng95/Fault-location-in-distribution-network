@@ -7,7 +7,7 @@ At present, deep learning has achieved remarkable results in many fields and a l
 
 ## My proposed methodology<br>
 The architecture of fault location framework<br>
-\alpha
+
 The model can be divided in three parts:
 
 * Spectrogram prediction network
@@ -23,23 +23,3 @@ The architecture of fault location framework
 ## Simulation results<br>
 The architecture of fault location framework
 
-ax^{2} + by^{2} + c = 0
-
-$$
-A_{mn}=
-\begin{vmatrix}
-a_{00}&a_{01}&{\cdots}&{a_{0n}}\\
-a_{10}&a_{11}&{\cdots}&{a_{1n}}\\
-{\vdots}&{\vdots}&{\ddots}&{\vdots}\\
-a_{m0}&a_{m1}&{\cdots}&{a_{mn}}\\
-\end{vmatrix}
-$$
-
-# 机器学习-如何在github上写数学公式
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-    $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
-    \\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
-    $$\frac{7x+5}{1+y^2}$$
-    \\(l(x_i) = - \log_2 P(x_i)\\)
-    $\alpha$
