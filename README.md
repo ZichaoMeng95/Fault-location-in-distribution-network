@@ -45,7 +45,7 @@ If you are not familiar with **transfer learning**, there is the papper you [nee
 
 In this way, fault data and steady-state data under various operation conditions can be collected as multidimensional array, and ensure there is **no intersection** between training samples and testing samples.<br>
 
-## Some Simulation results<br>
+## Some simulation results<br>
 ### Fault data estimation results:<br>
 >The fault data can be well estimated by steady-state data along with the fualt resistance.
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/Comparison%20of%20%20CTN%20fault%20data%20estimation%20results.png)<br>
