@@ -49,7 +49,7 @@ In this way, fault data and steady-state data under various operation conditions
 ### Fault data estimation results:<br>
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/Comparison%20of%20%20CTN%20fault%20data%20estimation%20results.png)<br>
 
-The fault data can be well estimated by steady-state data along with the fualt resistance.
+> The fault data can be well estimated by steady-state data along with the fualt resistance.
 
 ### Fault data augmentation results under different training epochs:<br>
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/AC-GAN%20data%20generation%20results%20when%20C%3D1%20during%20training%20process.png)<br>
