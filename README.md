@@ -63,7 +63,7 @@ In this way, fault data and steady-state data under various operation conditions
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/training%20strategy.png)<br>
 
 ### The influence of convolution structure change on fault location accuracy:<br>
->Adding or subtracting the layer of convolution network has slight influence on location accuracy, which shows that the model has good robustness. 
+>Adding or subtracting the layer of convolution network has slight influence on location accuracy, which shows that the model has good robustness. <br>
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/structure%20change.png)<br>
 
 ### The influence of data normalization on fault location accuracy:<br>
