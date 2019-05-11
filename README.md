@@ -58,9 +58,10 @@ In this way, fault data and steady-state data under various operation conditions
  
 
 ### Visualization of AC-GAN discriminator output features:<br>
+>The t-SNE two-dimensional visualization results of the complete dataset are shown. The numbers in color bar stand for corresponding fault location categories. The clustering of the same types of faults shows that AC-GAN has the ability to distinguish data categories. 
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/Visualization%20of%20discriminator%20output%20features%20of%20AC-GAN.png)<br>
 
->The t-SNE two-dimensional visualization results of the complete dataset are shown. The numbers in color bar stand for corresponding fault location categories. The clustering of the same types of faults shows that AC-GAN has the ability to distinguish data categories. 
+
 
 ### Curves of various errors and fault location accuracy with our without training strategy:<br>
 ![](https://github.com/ZichaoMeng95/Fault-location-in-distribution-network/blob/master/images/training%20strategy.png)<br>
